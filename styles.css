@@ -1,3 +1,27 @@
 body {
+    background-color: lightsteelblue;
+}
+.d1 {
+    background-color: lightskyblue;
+}
+.d2 {
+    background-color: lightsalmon;
+}
+.d3 {
+    background-color: paleturquoise;
+}
+.d4 {
     background-color: lightpink;
+}
+.d5 {
+    background-color: palegreen;
+}
+
+.container {
+    font-size: 40px;
+    width: 100%;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 100px 100px;
 }
