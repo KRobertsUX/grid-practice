@@ -22,6 +22,14 @@ body {
     width: 100%;
     background-color: lightgray;
     display: grid;
-    grid-template-columns: 50px 50px 50px;
-    grid-template-rows: 100px 100px;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-template-rows: 100px 100px 1fr;
+    grid-gap: 30px 10px;
+    grid-template-areas:
+    "header header header"
+    "advert content content"
+    "footer footer footer";
+}
+.item1 {
+    grid-area: header;
 }
